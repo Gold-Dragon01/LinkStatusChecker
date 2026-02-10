@@ -1,0 +1,14 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# VS Code (workspace settings)
+.vscode/
+
+# Ignore everything inside the .data folder...EXCEPT the .gitkeep file
+.data/*
+!.data/.gitkeep
